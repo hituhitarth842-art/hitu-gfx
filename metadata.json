@@ -1,0 +1,6 @@
+{
+  "name": "Hitu GFX Portfolio",
+  "description": "Professional high-end showcase website for Hitu GFX featuring YouTube thumbnail designs, video editing projects, client stats, tools, and booking contact forms.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
