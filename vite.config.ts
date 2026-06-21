@@ -4,8 +4,9 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
+  const isGithubPages = process.env.GITHUB_ACTIONS === 'true' || process.env.GITHUB_PAGES === 'true' || process.env.GH_PAGES === 'true';
   return {
-    base: '/hitu-gfx/',
+    base: isGithubPages ? '/hitu-gfx/' : '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
